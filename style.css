@@ -1,0 +1,100 @@
+html {
+    display: flex;
+    justify-content: center;
+    background: url('bg2.jpg');
+}
+
+div {
+    width: 1000px;
+}
+
+.form_chat {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 390px;
+    gap: 20px;
+}
+
+.btn_sub {
+    height: 100px;
+    cursor: pointer;
+    background-color: rgb(62, 61, 61);
+    color: rgb(254, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.name {
+    width: 220px;
+    height: 35px;
+}
+
+h2 {
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    background-color: rgb(33 114 59 / 77%);
+    padding: 5px 15px 20px 15px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: -2px -1px 32px 18px rgba(100, 111, 119, 0.2);
+    width: 1200px;
+}
+
+div section:nth-child(even) {
+    background-color: rgb(145 106 59 / 77%);
+    margin-left: 100px;
+}
+
+p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(252, 252, 252);
+    word-wrap: break-word;
+    border: 1.5px solid;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: -2px -1px 32px 18px rgba(244, 185, 23, 0.2);
+}
+
+h2 {
+    margin: 0;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
